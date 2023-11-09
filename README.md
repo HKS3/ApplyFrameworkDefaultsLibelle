@@ -1,5 +1,15 @@
 # ApplyFrameworkDefaultsLibelle
 
+# Installation
+
+Get a kzp file from the [release page](https://github.com/HKS3/HKS3-SRU-HTTPS-Proxy/releases) and install it via the Koha plugin system.
+
+## Build kzp file from source
+
+```
+cd lib; zip -r ../hks3_sru_https_proxy-0.900.kpz Koha/; cd ..
+```
+
 ## Koha Plugin
 
 for plugin hook for "framework_defaults_override"
